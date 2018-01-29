@@ -1,0 +1,54 @@
+.invoiceDivLeft {
+  float: left;
+}
+
+.invoiceDivRight {
+  float: left;
+}
+
+.invoiceDivLeft textarea {
+  height: 82px;
+  resize: none;
+}
+
+.items {
+  border-radius: 4px;
+  color: #fff;
+  font-size: 15px;
+  background-color: #363a40;
+  height: 28px;
+  padding-top: 2px;
+}
+
+.itemLine {
+  font-size: 14px;
+  margin-top: 5px;
+  height: 40px;
+}
+
+.itemLine .col-sm-5 {
+  padding: 0;
+}
+
+.itemLine .total {
+  margin-top: 8px;
+}
+
+.row .itemButtons {
+  padding: 0px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.itemButtons div {
+  float: left;;
+}
+
+.totalAmount {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.totalAmount .anountNumber {
+  padding-left: 21px;
+}

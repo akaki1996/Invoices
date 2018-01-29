@@ -1,0 +1,48 @@
+html, body {
+  height:100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.loginPage, .registrationPage {
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  height: 100%;
+}
+
+.loginForm, .registrationForm {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.loginBox {
+  height: 340px;
+  padding-top: 75px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.loginBox input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 270px;
+  border: 0;
+  margin: 0 5px 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.loginBox button {
+  width: 270px;
+  height: 46px;
+  border-radius: 0px;
+}
+
+.innerForm {
+  width: 270px;
+  margin: auto;
+}
